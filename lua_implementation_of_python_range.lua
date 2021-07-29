@@ -45,7 +45,7 @@ local function range(a, b, increment)
         return new_index, new_index
     end
 
-    return step, {}, nil
+    return step, nil, nil
 end
 
 for n in range(3) do
