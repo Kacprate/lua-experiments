@@ -1,3 +1,7 @@
+--[[
+    Implementation of python-like range, works only with the for loop at the moment.
+--]]
+
 local function sgn(x)
     assert(type(x) == "number", "Argument 1 must be a number")
 
