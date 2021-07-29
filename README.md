@@ -1,2 +1,2 @@
 # lua-experiments
-Experiments with Lua
+This repository contains small Lua files that were created with a bit of magic. 
