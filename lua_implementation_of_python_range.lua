@@ -38,20 +38,20 @@ local function range(a, b, increment)
 
         if sgn(increment) == -1 then
             if new_index <= end_idx then
-                return nil, nil
+                return
             end
         else
             if new_index >= end_idx then
-                return nil, nil
+                return
             end
         end
 
         return new_index, new_index
     end
 
-    return step, nil, nil
+    return step
 end
 
-for n in range(3) do
+for n in range(4) do
     print(n)
 end
